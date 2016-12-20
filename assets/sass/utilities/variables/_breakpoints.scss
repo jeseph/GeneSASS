@@ -1,0 +1,21 @@
+//
+// Device Widths
+//
+$device--large-desktop: rem(1680);
+$device--desktop: rem(1366);
+$device--tablet-landscape: rem(1024);
+$device--wp-admin-bar: rem(783);
+$device--tablet-portrait: rem(768);
+$device--phone-landscape: rem(640);
+$device--phone-portrait: rem(360);
+
+//
+// Media Queries
+//
+$media--largest-screen: 1600px;
+$media--x-large-screen: 1340px;
+$media--large-screen: 1200px;
+$media--medium-screen: 1023px;
+$media--small-screen: 860px;
+$media--x-small-screen: 480px;
+$media--smallest-screen: 320px;

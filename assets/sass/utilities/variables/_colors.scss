@@ -1,0 +1,79 @@
+//
+// Base Colors
+//
+$white: #fff;
+$black: #333;
+$red: #c3251d;
+$light-gray: #eee;
+$gray: #ccc;
+$dark-gray: #696969;
+$blue: #365899;
+
+//
+// Base Font Colors
+//
+$color--base: $black;
+$color--base--background: $light-gray;
+
+//
+// Base Link Colors
+//
+$color--link: $red;
+$color--link--hover: $black;
+
+//
+// Header Colors
+//
+$color--site-header--background: $white;
+$color--site-title: $black;
+
+//
+// Navigation Colors
+//
+$color--nav: $black;
+$color--nav--hover: $red;
+$color--nav-toggle: $gray;
+$color--nav-toggle--background: $white;
+
+$color--primary-nav: $color--nav;
+$color--primary-nav--hover: $color--nav--hover;
+$color--primary-nav--background: $white;
+
+$color--secondary-nav: $color--nav;
+$color--secondary-nav--hover: $color--nav--hover;
+$color--secondary-nav--background: $white;
+
+$color--sub-menu--background: $white;
+
+$color--breadcrumbs--background: $white;
+
+$color--pagination: $black;
+$color--pagination--hover: $white;
+$color--pagination--background: $white;
+$color--pagination--background--hover: $red;
+
+//
+// Entry Colors
+//
+$color--entry--background: $white;
+$color--entry--title: $black;
+$color--entry--title--hover: $red;
+$color--entry--code: $light-gray;
+$color--entry--code--background: $black;
+
+//
+// Comment Colors
+//
+$color--comments--background: $white; 
+
+//
+// Widget Colors
+//
+$color--widget--title: $black;
+$color--sidebar--widget--background: $white;
+
+//
+// Footer Colors
+//
+$color--site-footer--background: $white;
+$color--footer-widgets--background: $white;

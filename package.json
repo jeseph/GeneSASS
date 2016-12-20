@@ -1,0 +1,34 @@
+{
+  "name": "qcm-boilerplate",
+  "version": "1.0.0",
+  "description": "Our internal starter theme based on the Genesis Framework",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jeseph/qcm-boilerplate.git"
+  },
+  "author": "Jeseph Meyers",
+  "license": "GPL-2",
+  "bugs": {
+    "url": "https://github.com/jeseph/qcm-boilerplate/issues"
+  },
+  "homepage": "https://github.com/jeseph/qcm-boilerplate#readme",
+  "devDependencies": {
+    "bourbon": "^4.2.6",
+    "bourbon-neat": "^1.7.2",
+    "css-mqpacker": "^5.0.1",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^3.1.0",
+    "gulp-cssnano": "^2.1.2",
+    "gulp-notify": "^2.2.0",
+    "gulp-plumber": "^1.1.0",
+    "gulp-postcss": "^6.1.1",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^2.3.2",
+    "gulp-sass-lint": "^1.2.0",
+    "gulp-sourcemaps": "^1.6.0",
+    "sass-rem": "^1.2.2"
+  }
+}

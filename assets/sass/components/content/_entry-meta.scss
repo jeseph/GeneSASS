@@ -1,0 +1,7 @@
+/* ## Entry Meta
+--------------------------------------------- */
+
+p.entry-meta {
+  @include rem( font-size, $size--entry-meta );
+  margin-bottom: 0;
+}

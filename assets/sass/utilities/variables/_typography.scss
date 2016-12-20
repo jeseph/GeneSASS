@@ -1,0 +1,82 @@
+//
+// Font Size Globals
+//
+$em-base: 10px;
+
+$x-small: 14px;
+$small: 16px;
+$normal: 18px;
+$large: 20px;
+$x-large: 24px;
+
+$large-heading: 36px;
+$medium-heading: 30px;
+$small-heading: 24px;
+
+//
+// Base
+//
+$size--base: $large; // 20px
+$size--base--mobile: 18px; // 18px
+
+//
+// Header
+//
+$size--site-title: $medium-heading; // 30px
+$size--site-description: $small; // 16px
+
+//
+// Navigation
+//
+$size--nav: $small; // 16px
+$size--sub-menu: $x-small; // 14px
+$size--pagination: $small; // 16px
+
+//
+// Entry Content
+//
+$size--entry-title: $large-heading; // 36px
+$size--comments: $small; // 16px
+$size--entry-meta: $small;
+
+$size--entry--h1: 36px;
+$size--entry--h2: 30px;
+$size--entry--h3: 24px;
+$size--entry--h4: 20px;
+$size--entry--h5: 18px;
+$size--entry--h6: 16px;
+
+//
+// Post Elements
+//
+$size--blockquote: 30px;
+$size--breadcrumbs: $small; // 16
+$size--wp-caption: $x-small; // 14
+
+//
+// Comments
+//
+$size--comments: $small; // 16
+
+//
+// Archives
+//
+$size--archive-title: 20px;
+
+//
+// Widgets
+//
+$size--sidebar: $small; // 16
+$size--widget-title: $small;
+$size--featured-content--title: $large; // 20
+
+//
+// Plugins
+//
+$size--enews--input: $small; // 16
+
+//
+// Footer
+//
+$size--footer: $small; // 16
+$size--footer-widgets: $normal; // 18

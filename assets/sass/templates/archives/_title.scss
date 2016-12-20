@@ -1,0 +1,4 @@
+.archive-description .entry-title,
+.archive-title {
+  @include rem( font-size, $size--archive-title ); // 20px
+}

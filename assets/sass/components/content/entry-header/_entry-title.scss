@@ -1,0 +1,13 @@
+.entry-title {
+  @include rem( font-size, $size--entry-title );
+
+  a {
+    color: $color--entry--title;
+    text-decoration: none;
+
+    &:hover,
+    &:focus {
+      color: $color--entry--title--hover;
+    }
+  }
+}

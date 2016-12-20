@@ -1,0 +1,60 @@
+/* ## Column Classes
+--------------------------------------------- */
+
+.five-sixths,
+.four-sixths,
+.one-fourth,
+.one-half,
+.one-sixth,
+.one-third,
+.three-fourths,
+.three-sixths,
+.two-fourths,
+.two-sixths,
+.two-thirds {
+  float: left;
+  margin-left: $width--gutter;
+  
+  @media only screen and (max-width: $media--small-screen) {
+    margin: 0;
+    width: 100%;
+  }
+  
+}
+
+.one-half,
+.three-sixths,
+.two-fourths {
+  width: $width--column--one-half;
+}
+
+.one-third,
+.two-sixths {
+  width: $width--column--one-third;
+}
+
+.four-sixths,
+.two-thirds {
+  width: $width--column--two-thirds;
+}
+
+.one-fourth {
+  width: $width--column--one-fourth;
+}
+
+.three-fourths {
+  width: $width--column--three-fourths;
+}
+
+.one-sixth {
+  width: $width--column--one-sixth;
+}
+
+.five-sixths {
+  width: $width--column--five-sixths;
+}
+
+.first {
+  clear: both;
+  margin-left: 0;
+}

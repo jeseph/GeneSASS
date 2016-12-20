@@ -1,0 +1,9 @@
+assets/bourbon/
+assets/neat/
+node_modules/
+.idea/
+.sass-cache
+*.log
+.DS_Store
+.AppleDouble
+.LSOverride

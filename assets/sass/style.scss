@@ -1,0 +1,27 @@
+/*!
+	Theme Name: GeneSaSS
+	Description: SASS childtheme built on the Genesis Framework
+	Author: Jeseph Meyers
+	Author URI: https://qcmny.com/
+
+	Version: 1.0.0
+
+	Template: genesis
+
+    Text Domain: genesass
+
+	License: GPL-2.0+
+	License URI: http://www.gnu.org/licenses/gpl-2.0.html
+*/
+
+@import 'bourbon';
+@import 'neat';
+@import '../../node_modules/sass-rem/rem';
+
+@import 'utilities/index';
+
+@import 'base/index';
+@import 'layout/index';
+@import 'components/index';
+@import 'plugins/index';
+@import 'templates/index';

@@ -1,0 +1,29 @@
+/* # Footer Widgets
+---------------------------------------------------------------------------------------------------- */
+
+.footer-widgets {
+  @include rem( font-size, $size--footer-widgets );
+  background-color: $color--footer-widgets--background;
+  clear: both;
+  padding: 60px 0;
+  
+  .widget-area {
+    float: left;
+    margin-left: $width--gutter;
+    width: $width--footer-widgets;
+    
+    @media only screen and (max-width: $media--small-screen) {
+      margin: 0;
+      width: 100%;
+    } 
+  }
+  
+  .first {
+    clear: both;
+    margin-left: 0;
+  }
+}
+
+.footer-widgets-3 {
+  float: right;
+}

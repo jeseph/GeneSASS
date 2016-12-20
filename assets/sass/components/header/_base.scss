@@ -1,0 +1,24 @@
+//
+// Site Header Base Styles
+//
+
+.site-header {
+  background-color: $color--site-header--background;
+
+  > .wrap {
+    padding: 20px 0;
+  }
+  
+  @media only screen and (max-width: $media--medium-screen) {
+
+    .wrap {
+      padding-left: 5%;
+      padding-right: 5%;
+    }
+    
+    .search-form {
+      float: none;
+      margin: 16px auto;
+    }
+  }  
+}

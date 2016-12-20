@@ -1,0 +1,19 @@
+.sidebar {
+  @include rem( font-size, $size--sidebar );
+  margin-bottom: 40px;
+  
+  @media only screen and (max-width: $media--small-screen) {
+    margin-bottom: 5%;
+  }
+
+  .widget {
+    background-color: $color--sidebar--widget--background;
+    padding: 40px;
+    
+    @media only screen and (max-width: $media--small-screen) {
+      padding: 30px;
+      margin-bottom: 5%;
+    }
+    
+  }   
+}

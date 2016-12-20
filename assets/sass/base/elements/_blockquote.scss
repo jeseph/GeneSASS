@@ -1,0 +1,13 @@
+blockquote {
+  margin: 40px;
+}
+
+blockquote::before {
+  content: "\201C";
+  display: block;
+  @include rem( font-size, $size--blockquote );
+  height: 0;
+  left: -20px;
+  position: relative;
+  top: -10px;
+}
